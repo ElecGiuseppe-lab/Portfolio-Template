@@ -82,7 +82,7 @@ And use the command:
 nodemon app.js
 ```
 
-> Server starts on `http://localhost:3000`.
+> Server starts on `https://localhost:3000`.
 
 ## Acknowledgements
 
