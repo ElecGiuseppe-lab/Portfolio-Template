@@ -11,7 +11,7 @@ const age = calculateAge('1997-09-10')
 app.set("view engine", "ejs");
 app.set("views", "views");
 
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
 
 // It allows the server to transmit together with the templates (html/ejs files) the css and javascript rules (static files) required by the templates themselves.
 app.use(express.static(path.join(rootDir, "public")));
