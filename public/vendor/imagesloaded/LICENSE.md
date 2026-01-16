@@ -1,0 +1,1 @@
+ Released under the MIT license: https://desandro.mit-license.org/
