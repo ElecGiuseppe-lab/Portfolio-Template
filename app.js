@@ -25,56 +25,9 @@ app.get("/", (req, res) => {
     });
 });
 
-// app.get("/home", (req, res) => {
-//     res.render("homePage.ejs", {
-//         pageTitle: "Home Page",
-//         text: "This is home page!",
-//         path: "/home",
-//         year: date,
-//     });
-// });
-
-// app.get("/news", (req, res) => {
-//     res.render("news.ejs", {
-//         pageTitle: "News",
-//         path: "/news",
-//         year: date,
-//     });
-// });
-
-// app.get("/contact", (req, res) => {
-//     res.render("contact.ejs", {
-//         pageTitle: "Contact",
-//         path: "/contact",
-//         year: date,
-//     });
-// });
-
-// app.post("/search", (req, res) => {
-//     const title = [req.body.title];
-//     console.log(title);
-//     res.render("index.ejs", {
-//         pageTitle: "Home Page",
-//         text: "Welcome on my website!",
-//         title: req.body.title,
-//         path: "/search",
-//         year: date,
-//     });
-// });
-
-// app.use((req, res) => {
-//     res.status(404).render("404.ejs", {
-//         pageTitle: "Page Not Found!",
-//         message: `The URL "${req.rawHeaders[1]}${req.originalUrl}" doesn't exist`,
-//         path: "/contact",
-//     });
-//     console.error("Failed to make request. Status code:", res.statusCode, "(Page not found)");
-// });
-
 app.listen(port, () => {
     console.log(`Backend server is running on http://localhost:${port}`);
 });
-
 
 
 /**
