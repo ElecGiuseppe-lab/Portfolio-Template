@@ -1,0 +1,1 @@
+ Released under the Hippocratic License: https://firstdonoharm.dev/

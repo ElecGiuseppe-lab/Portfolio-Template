@@ -1,0 +1,286 @@
+<%- include('includes/head.html') %>
+
+<body class="index-page">
+    <%- include('includes/navigation.html') %>
+    <main> 
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <img src="/images/hero_section/1-5000x3333.jpg" alt="">
+
+            <div class="overlay"></div>
+
+            <div class="inner">
+                <h1 class="text-animate animate__animated animate__infinite" data-aos="fade-up">
+                    Hello, my name's<br>
+                    <strong>Giuseppe Pirilli</strong>.<br>
+                    <span class="typed" data-typed-items="I'm Junior Electronic Engineer.">I'm Electronic Engineer.</span>
+                </h1>
+            </div>
+        </section><!-- /Hero Section -->
+
+        <section id="about-container">
+            <!-- About Section -->
+            <section id="about" class="about">
+                <div class="wrapper-title" data-aos="fade-up">
+                        <h2>About Me</h2>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, ex at vehicula cursus, mauris lectus volutpat orci,
+                        at laoreet ipsum nibh eu ex. Donec scelerisque dictum ultrices. Sed egestas ligula velit, at dignissim magna tincidunt ut.
+                        Curabitur nec quam blandit, tincidunt sapien non, malesuada quam. Cras scelerisque massa diam, nec dignissim mauris varius ac.
+                        Aliquam erat volutpat. Phasellus sed dictum lacus, in aliquam erat. Mauris sit amet ultrices mauris, quis accumsan erat.
+                        Sed luctus diam molestie ornare interdum.
+                    </p>
+                </div>
+
+                <div class="wrapper-profile" data-aos="fade-up" data-aos-delay="100">
+                    <div class="img-profile">
+                        <img src="/images/hero_section/349-3264x2176.jpg" alt="Photo Curriculum Vitae">
+                    </div>
+
+                    <div class="info-profile">
+                        <h3><strong>Giuseppe Pirilli</strong></h3>
+
+                        <div class="info">
+                            <ul>
+                                <li><i class="bi bi-chevron-right"></i> <u><strong>Birthday:</strong></u> <span>27 March 1997</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <u><strong>Phone:</strong></u> <span>+ 39 1234567895</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <u><strong>City:</strong></u> <span>* * * * *</span></li>
+                            </ul>
+
+                            <ul class="second-list">
+                                <li><i class="bi bi-chevron-right"></i> <u><strong>Age:</strong></u> <span><%= myAge %></span></li>
+                                <li><i class="bi bi-chevron-right"></i> <u><strong>Email:</strong></u> <span>example@email.it</span></li>
+                                <li><i class="bi bi-chevron-right"></i> <u><strong>Address:</strong></u> <span>* * * * *</span></li>
+                            </ul>
+                        </div>
+
+                        <div class="download-cv">
+                            <a class="europass" href="/docs/Europass_CV.pdf" target="_blank" rel="noreferrer">
+                                <img src="/images/icons_svg/europass.svg" alt="Europass Curriculum Vitae" width="32px" height="32px">
+                                <span>Europass CV</span>
+                            </a>
+                            <a class="almalaurea" href="/docs/AlmaLaurea_CV.pdf" target="_blank" rel="noreferrer">
+                                <img src="/images/icons_svg/AlmaLaurea.svg" alt="AlmaLaurea Curriculum Vitae" width="32px" height="32px">
+                                <span>Almalaurea CV</span>
+                            </a>                        
+                        </div>
+                    </div>
+                </div>
+            </section><!-- /About Section -->     
+        
+            <!-- Skills Section -->
+            <section id="skills" class="skills">
+                <div class="wrapper-title" data-aos="fade-up">
+                    <h2>Digital Skills</h2>
+                </div>
+
+                <div class="wrapper-skills" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skills-content skills-animation">
+                        <div class="skills-col">
+                            <h5><strong>Application Software</strong></h5>
+
+                            <div class="progress">
+                                <span class="skill"><span>MATLAB</span> <i class="val">80% (intermedio)</i></span>
+                                
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div><!-- End Skills Item -->
+
+                            <div class="progress">
+                                <span class="skill"><span>Origin</span> <i class="val">45% (base)</i></span>
+                                
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div><!-- End Skills Item -->
+
+                            <div class="progress">
+                                <span class="skill"><span>Cadence Virtuoso</span> <i class="val">45% (base)</i></span>
+                                
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div><!-- End Skills Item -->                            
+                        </div>
+
+                        <div class="skills-col">
+                            <h5> <strong>Programming</strong></h5>
+
+                            <div class="progress">
+                                <span class="skill"><span>C</span> <i class="val">70% (intermedio)</i></span>
+                                
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div><!-- End Skills Item -->
+
+                            <div class="progress">
+                                <span class="skill"><span>nesC</span> <i class="val">50% (intermedio)</i></span>
+                                
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div><!-- End Skills Item -->
+
+                            <div class="progress">
+                                <span class="skill"><span>VHDL</span> <i class="val">70% (intermedio)</i></span>
+                                
+                                <div class="progress-bar-wrap">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div><!-- End Skills Item -->
+                        </div>
+                    </div>
+                </div>
+            </section><!-- /Skills Section -->  
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="resume">
+            <div class="wrapper-title" data-aos="fade-up">
+                <h2>Resume</h2>
+            </div>
+
+            <div class="section-items" data-aos="fade-up" data-aos-delay="100">
+                <h5 class="resume-title"><strong>Education</strong></h5>
+                
+                <div class="resume-item">
+                    <h6><strong>University degree</strong></h6>
+                    <p>Address: * * * * *</p>
+                    <p>[start_year - end_year]</p>
+                    <p>
+                        <em>Your University<br>
+                        Department<br>
+                        City</em>
+                    </p>
+                    <p><strong>Final score:</strong> * * * * * | <strong>Thesis title:</strong> * * * * *</p>
+                </div><!-- Edn Resume Item -->
+
+                <div class="resume-item">
+                    <h6><strong>University degree</strong></h6>
+                    <p>Address: * * * * *</p>
+                    <p>[start_year - end_year]</p>
+                    <p>
+                        <em>Your University<br>
+                        Department<br>
+                        City</em>
+                    </p>
+                    <p><strong>Final score:</strong> * * * * * | <strong>Thesis title:</strong> * * * * *</p>
+                </div><!-- Edn Resume Item -->              
+
+                <div class="resume-item">
+                    <h6><strong>High school certificate</strong></h6>
+                    <p>Address: * * * * *</p>
+                    <p>[start_year - end_year]</p>
+                    <p>
+                        <em>Your school<br>
+                        Department<br>
+                        City</em>
+                    </p>
+                    <p><strong>Final score:</strong> * * * * *</p>
+                </div><!-- Edn Resume Item -->                 
+            </div>
+
+            <div class="section-items" data-aos="fade-up" data-aos-delay="100">
+                <h5 class="resume-title"><strong>Professional Experience</strong></h5>
+                
+                <div class="resume-item">
+                    <h6><strong>Experience 1 (role covered)</strong></h6>
+                    <p>[start_year - end_year]</p>
+                    <p>
+                        <em>Your company<br>
+                        City</em>
+                    </p>
+                    <ul>
+                        <li>
+                            <p>mansions 1</p>
+                        </li>
+                        <li>
+                            <p>mansions 2</p>
+                        </li>
+                        <li>
+                            <p>. . .</p>
+                        </li>
+                    </ul>
+                </div><!-- Edn Resume Item -->                 
+            </div>            
+        </section><!-- /Resume Section -->
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio">
+            <div class="wrapper-title" data-aos="fade-up">
+                <h2>Portfolio</h2>
+            </div>
+
+            <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+                <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                    <li data-filter="*" class="filter-active"><h5><strong>All</strong></h5></li>
+                    <li data-filter=".filter-IoT"><h5><strong>IoT</strong></h5></li>
+                    <li data-filter=".filter-FPGA"><h5><strong>FPGA</strong></h5></li>
+                    <li data-filter=".filter-other"><h5><strong>Other</strong></h5></li>
+                </ul><!-- End Portfolio Filters -->
+
+                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-other">
+                        <img src="/images/portfolio_section/Other-project.png" class="img-fluid" alt="">
+                        <div class="portfolio-info-overlay">
+                            <h4>HEV Energy Flow Optimal Control</h4>
+                            <div>
+                                <a href="/images/portfolio_section/Other-project.png" title="Energy flow optimal control for HEVs with parallel architecture" data-gallery="gallery-Other" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="https://github.com/ElecGiuseppe-lab/Parallel-HEVs-Energy-Flow-Optimal-Control.git" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- End Portfolio Item -->   
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-IoT">
+                        <img src="/images/portfolio_section/IoT-Project.png" class="img-fluid" alt="">
+                        <div class="portfolio-info-overlay">
+                            <h4>EnviroSafe System</h4>
+                            <div>
+                                <a href="/images/portfolio_section/IoT-Project.png" title="Smart Indoor Enviromental Monitoring and Safeting System" data-gallery="gallery-IoT" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="https://github.com/ElecGiuseppe-lab/IoT-Project-EnviroSafe-System.git" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- End Portfolio Item -->
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-FPGA">
+                        <img src="/images/portfolio_section/FPGA-Project.png" class="img-fluid" alt="">
+                        <div class="portfolio-info-overlay">
+                            <h4>Grayscale Images Spatial Filtering Circuit</h4>
+                            <div>
+                                <a href="/images/portfolio/FPGA-Project.png" title="Spatial Filtering Circuit for 2D Grayscale Images with Isotropic Kernel" data-gallery="gallery-FPGA" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                                <a href="https://github.com/ElecGiuseppe-lab/FPGA-Grayscale-Images-Spatial-Filtering-Circuit.git" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- End Portfolio Item -->                         
+                </div><!-- End Portfolio Container -->                
+            </div>
+        </section><!-- /Portfolio Section -->
+    </main>
+
+	<%- include('includes/footer.ejs') %>
+
+    <!-- Scroll Top -->
+    <a href="#hero" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+        <i class="bi bi-arrow-up-short"></i>
+    </a>
+	
+	<!-- CDN jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	
+	<!-- Vendor JS Files -->
+	<script src="/vendor/typed.js/typed.umd.js"></script>
+	<script src="/vendor/aos/aos.js"></script>
+	<script src="/vendor/waypoints/noframework.waypoints.min.js"></script>
+	<!-- <script src="/vendor/swiper/swiper-bundle.min.js"></script> -->
+	<script src="/vendor//glightbox/js/glightbox.min.js"></script>
+	<script src="/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+	<script src="/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+	
+	<!-- Custom JS Files -->
+	<script src="/js/frontend.js" charset="utf-8"></script>
+	
+<%- include('includes/end.ejs') %>
