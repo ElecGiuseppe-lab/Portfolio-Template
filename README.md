@@ -46,7 +46,7 @@ If you want test this, before you begin, ensure you have the following installed
 
 ## Getting Started For Test
 
-### 1. Clone the repo
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/ElecGiuseppe-lab/Portfolio-Template.git
