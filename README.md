@@ -27,7 +27,7 @@ This project uses the following open-source libraries:
 - [glightbox](https://biati-digital.github.io/glightbox/) 
 - [imagesloaded](https://imagesloaded.desandro.com/) 
 
-## Installation
+## Prerequisites
 
 If you want test this, before you begin, ensure you have the following installed:
 
