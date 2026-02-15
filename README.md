@@ -81,7 +81,7 @@ And use the command:
 ```bash
 nodemon app.js
 ```
-> [NOTE!]
+> [!NOTE]
 > Server starts on `https://localhost:3000`.
 
 ## Acknowledgements
