@@ -3,7 +3,7 @@
 This repository contains an **example portfolio template**.
 The project was born with the aim of providing a solid foundation for creating a personal portfolio, easily adaptable to different professional profiles.
 
-> [!IMPORTANT]
+> [!NOTE]
 > While the current structure is complete, the template is currently under development and can be further improved with the addition of new sections, features, and optimizations.
 
 ## Key Features
