@@ -6,7 +6,7 @@ The project was born with the aim of providing a solid foundation for creating a
 > [!IMPORTANT]
 > While the current structure is complete, the template is currently under development and can be further improved with the addition of new sections, features, and optimizations.
 
-## Features
+## Key Features
 
 * Responsive layout, optimized for desktop, tablet, and mobile
 * Semantic HTML structure
